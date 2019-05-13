@@ -1,11 +1,13 @@
 
 Problem Statement:
+
 Customer preservation is essential in a variety of businesses as acquiring new customers is often
 costlier than keeping the current ones. Many companies are therefore always trying to answer the
 question “How can we predict the value of a customer over the course of his or her interactions
 with the business”. Santander therefore wants to know future customer transaction predictions.
 
 Company overview
+
 Banco Santander, S.A. is a Spanish multinational commercial bank and financial services
 company founded and based in Santander, Spain. Their mission is to help promote businesses
 and people by helping them understand their financial status and how best to achieve their
