@@ -13,9 +13,12 @@ with the business”. Santander therefore wants to know future customer transact
 This project will undergo a series of processes outlined as:
 • Exploratory Data Analysis where the different relationships between the 200 features and
 the target
+
 • Inferential Statistics applied on the different features and the target.
+
 • After these analyses, stories will then be brought out from these results depending on the
 visualizations gotten.
+
 • Since this project is a classification problem with two classes (0 and 1), different machine
 learning classification models will be tested on the dataset to see which best predicts with highest
 model accuracy score.
@@ -49,8 +52,10 @@ models considered are;
 
 • Applying Logistic Regression on the data set produced good accuracy scores for both training and test data. But when 
 displaying a classification report, the precision values for both classes has a large difference as the data is imbalance.
+
 • For Gaussian Naïve Bayes, the model is overfitting because the training and test accuracies have a large difference which 
 implies the model is too complex for the dataset.
+
 • Therefore, the best algorithm for this case is Logistic Regression which is implemented after the data has been made 
 balanced. This therefore solves the problem of Imbalance data which was faced because of the great difference in the two 
 classes.
@@ -61,9 +66,11 @@ classes.
 future. These features are var_91, var_108 and var_148 produce the highest probability values of having a 1 as target. These 
 features though anonymous could therefore be used to further increase this probability by ensuring values equivalent to their 
 mean or higher.
+
 • Also, the features with lowest probability values like var_5, var_84 and var_86 are the one of the features causing the 
 customers not to make a future transaction in the future. These features which are unidentified could further be used by 
 ensuring they instead contribute to a higher probability of having a 1 as the target.
+
 • From this analysis, the average number of customers transaction per day, week or month could be calculated and from this 
 the company will know if they are meeting up with the target ahead of them or not. And if the target is not being met, they 
 can therefore bring forth improvements to this by offering bonuses and more promotions which will increase customer awareness 
