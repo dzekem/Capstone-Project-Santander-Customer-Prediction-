@@ -47,11 +47,11 @@ models considered are;
 1. Logistic Regression with and without regularization
 2. Gaussian Naïve Bayes model
 
-- Applying Logistic Regression on the data set produced good accuracy scores for both training and test data. But when 
+• Applying Logistic Regression on the data set produced good accuracy scores for both training and test data. But when 
 displaying a classification report, the precision values for both classes has a large difference as the data is imbalance.
-- For Gaussian Naïve Bayes, the model is overfitting because the training and test accuracies have a large difference which 
+• For Gaussian Naïve Bayes, the model is overfitting because the training and test accuracies have a large difference which 
 implies the model is too complex for the dataset.
-- Therefore, the best algorithm for this case is Logistic Regression which is implemented after the data has been made 
+• Therefore, the best algorithm for this case is Logistic Regression which is implemented after the data has been made 
 balanced. This therefore solves the problem of Imbalance data which was faced because of the great difference in the two 
 classes.
 
